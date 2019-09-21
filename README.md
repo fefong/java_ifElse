@@ -3,7 +3,7 @@ Getting Started With Java
 
 Example Application: Conditional: IF/ELSE
 
-		## Simple conditional IF and ELSE.
+## Simple conditional IF and ELSE.
 		int value = 1;
 		if (value == 1) {
 			// TODO
@@ -15,7 +15,7 @@ Example Application: Conditional: IF/ELSE
 
 		}
 
-		## IF conditional with multiple ELSE.
+## IF conditional with multiple ELSE.
 		if (value < 1) {
 			// TODO
 			System.out.println("Value is less than 1");
@@ -34,7 +34,7 @@ Example Application: Conditional: IF/ELSE
 
 		}
 
-		## IF with Boolean.
+## IF with Boolean.
 		boolean bVal = true;
 
 		if (bVal) {
@@ -47,7 +47,7 @@ Example Application: Conditional: IF/ELSE
 
 		}
 
-		## IF with "!".
+## IF with "!".
 		if (!bVal) {
 			// TODO
 			System.out.println("TRUE");
@@ -60,31 +60,31 @@ Example Application: Conditional: IF/ELSE
 
 		String sVal = "wwww.google.com";
 
-		## IF String Equals.
+## IF String Equals.
 		if (sVal.equals("wwww.google.com")) {
 			// TODO
 
 		}
 
-		## IF String Equals Ignore Case Sensitive.
+## IF String Equals Ignore Case Sensitive.
 		if (sVal.equalsIgnoreCase("WWW.GOOGLE.COM")) {
 			// TODO
 
 		}
 
-		## IF String starts with the specified prefix.
+## IF String starts with the specified prefix.
 		if (sVal.startsWith("www")) {
 			// TODO
 
 		}
 
-		## IF String end with the specified prefix.
+## IF String end with the specified prefix.
 		if (sVal.endsWith(".com")) {
 			// TODO
 
 		}
 
-		## If String is Empty value.
+## If String is Empty value.
 		if (sVal.isEmpty()) {
 			// TODO
 		}
